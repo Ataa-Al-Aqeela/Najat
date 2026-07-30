@@ -1,0 +1,6 @@
+{
+  "name": "برنامج نَجَاة - دليل المحاسبة اليومية",
+  "description": "برنامج نَجَاة - نظام الملاحة اليومي للنفس ومصد الجنة وجلسة السكينة والمحاسبة قبل النوم",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
