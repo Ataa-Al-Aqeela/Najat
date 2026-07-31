@@ -14,9 +14,9 @@ export const t = {
 
   // App Title & Tagline
   appTitle: {
-    ar: 'نَجَاة',
-    en: 'NAJAH',
-    fa: 'نجات'
+    ar: 'سَفِينَةُ نَجَاة',
+    en: 'SAFINAT NAJAH',
+    fa: 'سفینه نجات'
   },
   appSubTitle: {
     ar: 'دليل المحاسبة اليومية وجلسة السكينة قبل النوم',
@@ -80,9 +80,9 @@ export const t = {
 
   // Key Hadith
   featuredHadithCategory: {
-    ar: 'الحديث المفتاحي لبرنامج نَجَاة',
-    en: 'Key Foundation Hadith of NAJAH',
-    fa: 'حدیث کلیدی برنامه نجات'
+    ar: 'الحديث المفتاحي لبرنامج سَفِينَةُ نَجَاة',
+    en: 'Key Foundation Hadith of SAFINAT NAJAH',
+    fa: 'حدیث کلیدی برنامه سفینه نجات'
   },
   featuredHadithText: {
     ar: '«حَاسِبُوا أَنْفُسَكُمْ قَبْلَ أَنْ تُحَاسَبُوا، وَزِنُوهَا قَبْلَ أَنْ تُوزَنُوا، وَتَجَهَّزُوا لِلْعَرْضِ الأَكْبَرِ.»',

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { HeroQuote } from './components/HeroQuote';
 import { HadithCard } from './components/HadithCard';
+import { NavigationTabs } from './components/NavigationTabs';
 import { PillarsAccordion } from './components/PillarsAccordion';
 import { EveningSession } from './components/EveningSession';
 import { HistoryLogs } from './components/HistoryLogs';
@@ -69,10 +70,8 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#090d16] via-[#0f172a] to-[#172554] text-[#f8fafc] font-cairo py-6 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto space-y-6">
-        {/* Header & Main Navigation */}
+        {/* Header */}
         <Header
-          activeTab={activeTab}
-          setActiveTab={setActiveTab}
           streakCount={streakCount}
           isMuted={isMuted}
           onToggleMute={handleToggleMute}
@@ -80,11 +79,18 @@ export default function App() {
           setLanguage={setLanguage}
         />
 
-        {/* Hero Quote Card (Imam al-Sadiq Hadith) */}
+        {/* Hero Quote Card (Imam al-Sadiq Hadith - شعار ومقصد البرنامج) */}
         <HeroQuote language={language} />
 
-        {/* Core Featured Hadith Card (Key Program Hadith) */}
+        {/* Core Featured Hadith Card (الحديث المفتاحي لبرنامج نَجَاة) */}
         <HadithCard language={language} />
+
+        {/* Navigation Tabs (جلسة السكينة، محاور النجاة، سجل المحاسبة، المسبحة الذكية، أدعية ما قبل النوم) */}
+        <NavigationTabs
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+          language={language}
+        />
 
         {/* Tab Views */}
 
